@@ -1,0 +1,32 @@
+.heroi {
+  padding: 200px 0;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/heroi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroi__wraper {
+  text-align: center;
+}
+
+.heroi__title {
+  max-width: 696px;
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.heroi__button {
+  @extend %btn;
+  padding: 10px 32px;
+}
